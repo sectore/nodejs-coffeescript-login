@@ -53,5 +53,5 @@ app.post '/logout', (req, res) ->
 ###
 run server
 ###
-port = 48866
+port = process.env.PORT or 9294
 app.listen port, -> console.log "Server is starting on port: #{port}"
