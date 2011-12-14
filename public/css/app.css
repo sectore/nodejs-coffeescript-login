@@ -1,0 +1,171 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 1.2em "Helvetica Neue", helvetica, arial, sans-serif;
+    color: #555555;
+    font-weight: normal;
+    background-color: #F2F2F2;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #6495ed !important;
+}
+
+fieldset {
+    border-style: none;
+}
+
+form {
+    padding: 2.5em 1.5em;
+}
+
+input {
+    width: 100%;
+    font-size: 2.2em;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+
+    margin-bottom: .5em;
+
+    outline: none;
+
+    border: 1px solid #ccc;
+
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+
+input[type="submit"] {
+
+    background-color: #e6e6e6;
+
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e6e6e6', GradientType = 0);
+
+    padding: .2em;
+    border: 1px solid #ccc;
+
+    border-bottom-color: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+input::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#login,
+#loggedin {
+    width: 100%;
+    background: #FFF;
+
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#loginInfo {
+    font-size: 1em;
+    color: #888888;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#loggedin p {
+
+    padding: 1em 1em 0 1em;
+    font-size: 2.5em;
+    line-height: 1em;
+    text-align: center;
+    color: #6495ed;
+}
+
+#info,
+#error {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#info {
+    color: #6495ed;
+}
+
+#error {
+    color: #ff69b4;
+}
+
+.header,
+.header a,
+.footer,
+.footer a {
+    text-shadow: #FFF 1px 1px 1px;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    font-size: .8em;
+    padding-top: .5em;
+}
+
+.header {
+    padding: 2em 0;
+}
+
+.header h1 {
+    font-size: 2.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+

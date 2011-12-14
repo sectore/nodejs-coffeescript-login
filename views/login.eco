@@ -1,0 +1,19 @@
+<div id="login">
+
+    <form method="post" action="/login">
+        <fieldset>
+
+            <% if @loggedOut: %>
+            <p id="info">You have been successfully logged out!</p>
+            <% else if @error: %>
+            <p id="error">Invalid username or password!</p>
+            <% end %>
+
+            <input type="text" name="user[name]" placeholder="username"/>
+            <input type="password" name="user[password]" placeholder="password"/>
+            <input type="submit" value="Login"/>
+            <p id="loginInfo">username: luke / password: skywalker</p>
+        </fieldset>
+    </form>
+
+</div>

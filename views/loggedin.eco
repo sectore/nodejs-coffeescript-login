@@ -1,0 +1,7 @@
+<div id="loggedin">
+    <p>HELLO <br/><%- @user.name %></p>
+
+    <form method="post" action="/logout">
+        <input type="submit" value="Logout"/>
+    </form>
+</div>
