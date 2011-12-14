@@ -42,7 +42,7 @@ app.post '/login', (req, res) ->
 	For simplicity of this demo it is just hardcoded here
 	###
 	if user.name is 'luke' and user.password is 'skywalker'
-		res.render 'loggedIn', title: "Logged in as #{user.name}", user: user
+		res.render 'loggedin', title: "Logged in as #{user.name}", user: user
 	else
 		res.render 'login', title:'Error', error:true
 
