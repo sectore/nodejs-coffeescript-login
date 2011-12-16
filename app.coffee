@@ -39,7 +39,7 @@ app.post '/login', (req, res) ->
 
 	###
 	Usually you will check the login data accessing a database or similiar
-	For simplicity of this demo it is just hardcoded here
+	For the sake of this demo it just uses hardcoded values here
 	###
 	if user.name is 'luke' and user.password is 'skywalker'
 		res.render 'loggedin', title: "Logged in as #{user.name}", user: user
